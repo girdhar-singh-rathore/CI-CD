@@ -6,9 +6,9 @@ pipeline {
                 echo '----------'
                 echo 'Hello world!' 
                 echo '----------'
-                echo params
+                bat set
                 echo '----------'
-                echo env
+                bat params
                 echo '----------'
             }
         }
